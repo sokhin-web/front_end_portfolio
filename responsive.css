@@ -97,12 +97,12 @@
     font-size: larger;
   }
   .about_img_list {
-    gap: 10px;
-    margin: 40px 5px 0 5px;
+    gap: 5px;
+    margin: 40px 0 0 0;
   }
   .about_img img {
-    width: 175px;
-    height: 200px;
+    width: 130px;
+    height: 150px;
     border-radius: 10px;
   }
   /*Skills responsive*/
