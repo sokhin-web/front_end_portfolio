@@ -216,7 +216,7 @@ body {
 }
 .about_img img {
   width: 200px;
-  height: 200px;
+  height: 250px;
   border-radius: 15px;
 }
 .about_img img:hover {
@@ -362,20 +362,24 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .cards .card .content .card_img {
-  height: 150px;
+  height: 100%;
   width: 100%;
   border-radius: 10px;
   padding: 5px;
-  margin: 10px 0;
   box-shadow: #f2e5bf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2e5bf;
 }
 
 .card .content .card_img img {
-  height: 100%;
-  width: 100%;
+  height: 150px;
+  width: 200px;
   border: 3px solid #ffffff; /* White border for image */
   border-radius: 10px;
 }
